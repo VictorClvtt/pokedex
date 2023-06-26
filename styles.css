@@ -8,30 +8,28 @@
 }
 
 body{
-    background: linear-gradient(170deg, rgba(217,217,217,1) 0%, rgba(151,180,255,1) 75%);
-    height: 100vh;
+    background: linear-gradient(170deg, rgba(217,217,217,1) 0%, rgba(151,180,255,1) 75%), no-repeat;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     display: flex;
+    font-size: 25px;
 }
 
 main{
-    display: flex;
-    width: 175px;
-    height: 50%;
-    margin: 0 auto;
-    align-self: center;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    zoom: 150%;
+    display: inline-block;
+    padding: 15px;
+    margin: auto;
 }
 
 .mainInfo{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 100%;
     align-items: center;
     align-self: center;
-    margin: auto;
+    text-align: center;
     gap: 5px;
 }
 
@@ -51,7 +49,7 @@ main{
 
 .notAnimated{
     height: fit-content;
-    width: 85%;
+    width: 30%;
     align-self: center;
     margin: auto;
 }
@@ -74,7 +72,7 @@ main{
     text-align: center;
     align-items: center;
     zoom: 225%;
-    margin: auto 10px;
+    margin: auto 2px;
     transition: 1s;
     background: none;
 }
@@ -88,7 +86,7 @@ main{
     justify-content: center;
     gap: 1px;
     background-color: black;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
     text-shadow: 1px 0px black;
     border: 1px solid black;
@@ -233,9 +231,9 @@ main{
 }
 
 .description{
-    font-size: 10px;
+    font-size: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: fit-content;
+    width: ;
     height: fit-content;
     padding: 3px;
     background: rgba(3, 46, 92, 0.133);
