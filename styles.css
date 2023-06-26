@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(170deg, rgba(217,217,217,1) 0%, rgba(151,180,255,1) 75%);
+    height: 100vh;
+    display: flex;
+}
+
+main{
+    display: flex;
+    width: 175px;
+    height: 50%;
+    margin: 0 auto;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    zoom: 150%;
+}
+
+.mainInfo{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    gap: 5px;
+}
+
+.image{
+    display: flex;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+}
+
+.animated{
+    height: fit-content;
+    width: 40%;
+    align-self: center;
+    margin: auto;
+}
+
+.notAnimated{
+    height: fit-content;
+    width: 85%;
+    align-self: center;
+    margin: auto;
+}
+
+.number{
+    display: none;
+    background: none;
+    color: rgb(228, 219, 207);
+    padding: 0 5px;
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
+}
+
+.botao{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgba(7, 147, 179, 0.79);
+    border: unset;
+    display: flex;
+    height: 10px;
+    text-align: center;
+    align-items: center;
+    zoom: 225%;
+    margin: auto 10px;
+    transition: 1s;
+    background: none;
+}
+
+.botao:hover{
+    color: rgba(4, 94, 114, 0.79);
+}
+
+.types{
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-shadow: 1px 0px black;
+    border: 1px solid black;
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+#bug{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(122, 152, 42);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#electric{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(202, 216, 0);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#fire{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(205, 41, 41);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;    
+}
+
+#grass{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(69, 197, 31);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+    
+}
+
+#normal{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(179, 179, 179);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+    
+}
+
+#rock{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(105, 80, 33);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#dark{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(35, 27, 13);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#fairy{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 134, 237);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#flying{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(103, 132, 196);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#flying{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(103, 132, 196);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#ground{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(160, 179, 21);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#poison{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(137, 21, 179);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#steel{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(165, 162, 162);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#dragon{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(57, 83, 188);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#fighting{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(114, 41, 41);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#ghost{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(50, 43, 150);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#ice{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(97, 178, 255);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#psychic{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(202, 61, 110);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+#water{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(57, 100, 217);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+
+.description{
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    background: rgba(3, 46, 92, 0.133);
+    box-shadow: rgba(0, 19, 67, 0.24) 0px 3px 8px;
+}
