@@ -42,14 +42,14 @@ main{
 
 .animated{
     height: fit-content;
-    width: 40%;
+    height: 100%;
     align-self: center;
     margin: auto;
 }
 
 .notAnimated{
     height: fit-content;
-    width: 30%;
+    height: 100%;
     align-self: center;
     margin: auto;
 }
